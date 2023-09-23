@@ -1,0 +1,516 @@
+body{
+    background-color: #000;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('banner.webp');
+      /* height: 100vh;
+      background-repeat: no-repeat;
+      
+          background-position: center center;
+      background-repeat: no-repeat no-repeat;
+      z-index: 1; */
+          /* padding: 12% 0px 12% 0px; */
+      position: relative;
+      background-size: cover;
+      /* width: 100%; */
+      height: 100vh;
+      background-position: center center;
+      background-repeat: no-repeat no-repeat;
+      z-index: 1;
+  }
+
+ 
+
+.onlinehead{
+  margin-top: 120px;
+}
+
+.sign{
+   background-color: #f4181c;
+   border: 0;
+   color: white;
+   line-height: 1;
+   font-weight: 500;
+   font-size: 20px;
+   padding: 10px;
+   width: 120px;
+   border-radius: 4px;
+}
+
+.sign:hover{
+ color: #f4181c;
+ background-color: white;
+}
+
+
+
+.title{
+    font-size: 60px;
+    font-weight: 630;
+    font-family: "Poppins", sans-serif;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.p{
+    font-size: 20px;
+}
+
+.signup{
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 700px;
+    /* margin-left: 310px; */
+    
+}
+
+.signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 15px 30px;
+    
+}
+
+
+.tvtitle{
+    font-size: 45px;
+    /* align-items: center; */
+    font-weight: 650;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.tvsubtitle{
+    font-size: 25px;
+    /* line-height: 28px; */
+    /* margin-left: 165px; */
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.tv{
+    text-align: center;
+    /* margin-top: 120px; */
+}
+
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .count1 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #f4181c;
+  }
+  .count1::after {
+    content: counter(num);
+  }
+  .count1:hover {
+    --num: 500;
+  }
+
+  #totalvideos{
+    margin-top: 60px;
+  }
+
+  .count2 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #f4181c;
+  }
+  .count2::after {
+    content: counter(num);
+  }
+  .count2:hover {
+    --num: 10;
+  }
+
+  .count3 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #f4181c;
+  }
+  .count3::after {
+    content: counter(num);
+  }
+  .count3:hover {
+    --num: 200;
+  }
+
+  .count4 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #f4181c;
+  }
+  .count4::after {
+    content: counter(num);
+  }
+  .count4:hover {
+    --num: 100;
+  }
+
+/* .phonetitle{
+    font-size: 45px;
+    font-weight: 650;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.phonesubtitle{
+    font-size: 25px;
+    line-height: 28px;
+    margin-left: 140px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.phone{
+    text-align: right;
+} */
+
+.phonetitle{
+    font-size: 45px;
+    /* align-items: center; */
+    font-weight: 650;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.phonesubtitle{
+    font-size: 25px;
+    /* line-height: 28px; */
+    /* margin-left: 165px; */
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.phone{
+    text-align: center;
+    /* margin-top: 120px; */
+}
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.pricingTable {
+    text-align: center;
+    background: #333;
+    margin: 0 -15px;
+  
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    transform: scale(1);
+    transition: all .5s ease 0s
+}
+
+
+.pricingTable .pricingTable-header {
+    padding: 40px 0;
+    background: #5a5959;
+    border-radius: 10px 10px 80% 40%;
+    transition: all .5s ease 0s
+}
+
+
+
+.pricingTable:hover .pricingTable-header {
+    background: #f4181c
+}
+
+
+
+.price-value{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    color: #ffffff;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .month {
+    font-size: 30px;
+    color: #ffffff
+}
+
+
+.pricingTable .heading {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricing-content ul {
+    list-style: none;
+   padding: 0;
+    margin-bottom: 30px
+    
+}
+
+.pricingTable .pricing-content ul li {
+    line-height: 30px;
+    color: #ffffff
+}
+
+.pricingTable .planbtn a {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px 35px;
+    border-radius: 4px;
+    background: #3f3c3c;
+    text-transform: uppercase;
+    
+}
+
+.pricingTable .planbtn a:hover {
+  background-color: #3f3c3c;
+} 
+
+.pricing {
+    margin: 30px; 
+}
+
+.pricing:last-child {
+    /* margin-right: 0; */
+}
+
+.pricing-title{
+    font-size: 50px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #fff;
+    font-stretch: expanded;
+}
+
+.pricingTable:hover .planbtn {
+   
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    /* padding: 10px 35px; */
+    border-radius: 4px;
+    background: #f4181c;
+    text-transform: uppercase;
+}
+
+
+.pctitle{
+    font-size: 45px;
+    /* align-items: center; */
+    font-weight: 650;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.pcsubtitle{
+    font-size: 25px;
+    /* line-height: 28px; */
+    /* margin-left: 165px; */
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.pc{
+    text-align: center;
+    /* margin-top: 120px; */
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .card-text {
+    opacity: 1; 
+}
+
+
+
+.cardshow{
+    background-color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .cardshow:hover{
+  -webkit-text-fill-color: #20ad95;
+  }
+  .innercard{
+    overflow: hidden;
+  }
+  
+  .innercard img{
+    transition: all 1.5s ease; 
+  }
+  
+  .innercard:hover img{
+    transform: scale(1.5);
+  }  
+
+  .cardshowtitle{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .accordion-button{
+    padding: 20px 40px 20px 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+  }
+ 
+  .accordion{
+    width: 900px
+  }
+  
+  ul {
+    list-style-type: none;
+    display: inline-block;
+     margin: 0;
+    padding: 0;
+    overflow: hidden; 
+   
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    color: #f4181c;
+  }
+  
+
+
+   .afoot {
+    list-style-type: none;
+    display: inline-block;
+     margin: 0;
+    padding: 0;
+    overflow: hidden; 
+   
+  }
+
+  .bfoot {
+    float: left;
+  }
+  
+  .bfoot .cfoot {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .bfoot .cfoot:hover{
+    color: #f4181c;
+  }
+  
+
+
+.member-btn-style{
+    display: inline-block;
+    color: #ffffff;
+    padding: 12px 25px;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f4181c;
+}
+
+.member-btn-style:hover{
+    background-color: #ffffff;
+    color: #f4181c;
+}
+
+.footimg{
+  transition: all ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.footimg:hover{
+ transform: scale(1.3);
+}
+
+.footd{
+  overflow: hidden;
+}
+/* .cardshow1{
+  color: yellow;
+} */
+
+
+
+ /* Streamo ended  */ /* Streamo ended  */ /* Streamo ended  */ /* Streamo ended  */ /* Streamo ended  */
+
+
+
+
+
+

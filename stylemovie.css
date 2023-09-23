@@ -1,0 +1,167 @@
+.bod{
+    background-color: #000000;
+}
+.member-btn-style1{
+    display: flex;
+    color: #ffffff;
+    padding: 6px 20px;
+    /* line-height: 1; */
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f4181c;
+    text-decoration: none;
+    border: 0;
+}
+
+.member-btn-style1:hover{
+    background-color: #ffffff;
+    color: #000000;
+} 
+
+.alert-secondary{
+    background-color: #12222d;
+    border: 0;
+}
+
+.video-wrap video {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.vid{
+    list-style: none;
+}
+.dir{
+    font-size: 20px;
+    font-weight: 500;
+    color: #f4181c;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cardshow{
+    background-color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .cardshow:hover{
+  -webkit-text-fill-color: #20ad95;
+  }
+  .innercard{
+    overflow: hidden;
+  }
+  
+  .innercard img{
+    transition: all 1.5s ease; 
+  }
+  
+  .innercard:hover img{
+    transform: scale(1.5);
+  }  
+
+
+.cardshowtitle1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+  .afoot {
+    list-style-type: none;
+    display: inline-block;
+     margin: 0;
+    padding: 0;
+    overflow: hidden; 
+   
+  }
+
+  .bfoot {
+    float: left;
+  }
+  
+  .bfoot .cfoot {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .bfoot .cfoot:hover{
+    color: #f4181c;
+  }
+  
+  .footimg{
+    transition: all ease-in-out;
+    transition-duration: 0.3s;
+  }
+  
+  .footimg:hover{
+   transform: scale(1.3);
+  }
+  
+  .footd{
+    overflow: hidden;
+  }
+
+  
+  ul {
+    list-style-type: none;
+    display: inline-block;
+     margin: 0;
+    padding: 0;
+    overflow: hidden; 
+   
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    color: #f4181c;
+  }
+  
+.member-btn-style{
+    display: inline-block;
+    color: #ffffff;
+    padding: 12px 25px;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #f4181c;
+}
+
+.member-btn-style:hover{
+    background-color: #ffffff;
+    color: #f4181c;
+}
+
+.mnav{
+  color: #ffffff;
+}
+
+.mnav:hover{
+  color: #f4181c;
+}
+
+/* movie ended */ /* movie ended *//* movie ended *//* movie ended *//* movie ended *//* movie ended */

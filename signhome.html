@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Signin</title>
+</head>
+<body>
+    
+      <div class="container-fluid banner">
+        <div class="row banner">
+            <nav class="navbar navbar-expand-lg bg-transparent ">
+                <div class="container">
+                    <a class="navbar-brand " href="streamo.html"><img src="logo.webp" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                      <!-- <li class="nav-item">
+                        <a class="nav-link active ms-3 text-white" aria-current="page" href="streamo.html">Home</a>
+                      </li> -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link ms-3 text-white" href="streamo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                          <li><a class="dropdown-item" href="#">Home Page 2</a></li>
+                          <li><a class="dropdown-item" href="#">Home page 3</a></li>
+                          <li><a class="dropdown-item" href="#">Netflix Style</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-white" aria-current="page" href="#">About</a>
+                      </li>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link active ms-3 text-white" aria-current="page" href="#">How it Works</a>
+                      </li> -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link ms-3 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          How it Works
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                          <li><a class="dropdown-item" href="#">FAQ</a></li>
+                          <li><a class="dropdown-item" href="#">Support & Solution</a></li>
+                          <li><a class="dropdown-item" href="#">My Account</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-white" aria-current="page" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-white" aria-current="page" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <a type="button" class="btn btn-light login"
+                        style="--bs-btn-padding-y: .42rem; --bs-btn-padding-x: 2rem; --bs-btn-font-size: .75rem; font-size: large;">
+                  Log in
+                </a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              <div class="container">
+                <div class="in-breadcrumb">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2 class="about fw-bold">Login & Register</h2>
+                        </div>
+                        <!-- <nav style="--bs-breadcrumb-divider:'';" aria-label="breadcrumb">
+                            <ol class="breadcrumb alert justify-content-center">
+                                <li class="breadcrumb-item"><a href="" class="text-white fw-bold text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item"><a href="" class="text-white fw-bold text-decoration-none"></a></li>
+                                <li class="breadcrumb-item"><a href="" class="text-white fw-bold text-decoration-none">></a></li>
+                                <li class="breadcrumb-item"><a href="" class="text-white fw-bold text-decoration-none"></a></li>
+                                <li class="breadcrumb-item"><a href="" class="text-white fw-bold text-decoration-none">Login & Register</a></li>
+                            </ol>
+                        </nav> -->
+                        <h1 class="text-white  reg"><a href="streamo.html" class="breadhome">Home</a> > Login & Register</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid">
+            <nav style="--bs-breadcrumb-divider:'|'; font-size: 25px; margin-top: 100px;" aria-label="breadcrumb">
+                            <ol class="breadcrumb alert justify-content-center">
+                                <li class="breadcrumb-item"><a href="" class=" fw-bold text-decoration-none signlogreg">Login</a></li>
+                                <li class="breadcrumb-item"><a href="" class=" fw-bold text-decoration-none signegreg" >Register</a></li>
+                            </ol>
+                        </nav>
+        <form class="mx-auto form shadow-lg">
+          <div class="mb-3 mt-5">
+            <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User Name">
+          </div>
+          <div class="mb-3">
+            <!-- <label for="exampleInputPassword1" class=" form-label">Password</label> -->
+            <input type="password" class="form-control " id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <div class="row">
+              <div class="col">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+              </div>
+              <div class="col-lg-3">
+                <label class="form-check-label text-danger" for="exampleCheck1">Forgot Password?</label>
+              </div>
+            </div>
+          </div>
+          <Login type="submit" class="btn btn-primary mt-2 rounded-0 loglogin"    style="--bs-btn-padding-y: 0.6rem; --bs-btn-padding-x: 2.5em; --bs-btn-font-size: rem;">Login</button>
+        </form> 
+       </div><br><br><br><br><br>
+       
+
+       <!-- footer -->
+   
+<footer class="bg-image bg-primary bg-transparent footbanner text-white  pt-5 pb-4">
+  <div class="container text-left text-md-left mt-5">
+      <div class="row text-left text-md-left">
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-5">
+            <h4 class="mb-4 text-light fw-bold mt-3"><u>About Streamo</u></h4>
+             <div class="footer-text">Eiusmod tempor incididunt ut la abore et minim <br>ven exerc itation ulla mco lboris naliquip ex ea <br> comm. </p>
+          </div>
+          <div>
+            <a href=""><i class="fa fa-facebook text-white "></i></a>
+            <a href=""><i class="fa fa-twitter text-white ms-3"></i></a>
+            <a href=""><i class="fa fa-instagram text-white ms-3"></i></a>
+            <a href=""><i class="fa fa-linkedin text-white ms-3"></i></a>
+          </div>
+          
+          </div>
+          <div class="col-lg-2 col-lg-2 col-xl-2 mx-auto mt-5">
+              <h4 class="mb-4 text-light fw-bold mt-3"><u>Company</u></h4>
+              <p>
+                  <a href="streamo.html" class="explore" style="text-decoration: none;">Home</a>
+              </p>
+              <p>
+                  <a href="" class="explore" style="text-decoration: none;">About</a>
+              </p>
+              <p>
+                  <a href="" class="explore" style="text-decoration: none;">Service</a>
+              </p>
+              <p>
+                  <a href="" class="explore" style="text-decoration: none;">Contact</a>
+              </p>
+          </div>
+          
+          <div class="col-lg-2 col-lg-2 col-xl-2 mx-auto mt-5">
+            <h4 class="mb-4 text-light fw-bold mt-3"><u>Services</u></h4>
+            <p>
+                <a href="" class="explore" style="text-decoration: none;">Video</a>
+            </p>
+            <p>
+                <a href="" class="explore" style="text-decoration: none;">Movie</a>
+            </p>
+            <p>
+                <a href="" class="explore" style="text-decoration: none;">Tv Series</a>
+            </p>
+            <p>
+                <a href="" class="explore" style="text-decoration: none;">Live</a>
+            </p>
+        </div>
+          <div class="col-lg-3 col-lg-3 col-xl-3 mx-auto mt-5">
+              <h4 class="mb-4 text-light fw-bold mt-3"><u class="">Contact</u></h4>
+              <div class="icon">
+                <p>
+                    <i class="fa fa-phone " style="font-size:20px"></i>
+                    <a href="" class="text-white" style="text-decoration: none;"> +022222222</a>
+                </p>
+            </div>
+              <div class="icon">
+                  <p>
+                  <i class="fa fa-home " style="font-size:20px"></i>
+                      <a href="" class="text-white" style="text-decoration: none;"> Queen meri street abc/23<br> Bangladesh</a>
+                  </p>
+              </div>
+              <div class="icon">
+                  <p>
+                      <i class="fa fa-envelope " ></i>
+                      <a href="" class="text-white" style="text-decoration: none;"> demo@gmail.com</a>
+                  </p>
+              </div>
+             
+             
+          </div>
+      </div>
+      <div class="row text-center text-md-left ">
+          <div class="col-12">
+              <div class="row">
+                  <hr>
+                  <div class="col-6">
+                      <a><img src="" href="" class="text-decoration-none"> Copyright © 2023 All right reserve</a>
+                  </div>
+                  <div class="col-2">
+                  <a></a>
+                  </div>
+                  <div class="col-lg-1">
+                      <a href="" class="text-decoration-none help">Help</a>
+                  </div>
+                  <div class="col-lg-1">
+                      <a href="" class="text-decoration-none help">About</a>
+                  </div>
+                  <div class="col-lg-1">
+                      <a href="" class="text-decoration-none help">Support</a>
+                  </div>
+                  <div class="col-lg-1">
+                    <a href="" class="text-decoration-none help">Contact</a>
+                </div>
+                 
+              </div>
+          </div>
+   
+      </div>
+      
+  </div>
+   </footer>
+
+<!-- footer ended -->
+     
+         
+            
+       
+      
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+    <section>
+        <div class="container-fluid footreg">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-lg-3 ">
+                        <h5 class="foothed mt-5"><u style="text-decoration-style: wavy;">About Streamo</u></h5>    
+                        <div><p class="text-white mt-4">Eiusmod tempor incididunt ut la abore et minim <br> ven exerc itation ulla mco lboris naliquip ex ea<br> comm.</p>
+                          <div>
+                              <i class="fa fa-facebook text-white "></i>  
+                              <i class="fa fa-twitter text-white ms-3"></i>
+                              <i class="fa fa-instagram text-white ms-3"></i>
+                              <i class="fa fa-linkedin text-white ms-3"></i>
+                          </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col ">
+                        <h5 class="foothed ms-4 mt-5"><u style="text-decoration-style: wavy;">Company</u></h5>
+                        <ul class="mt-3 " >
+                            <li class="nav-link mt-3"><a href="#" class="footlist">Home</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist">About</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist">Service</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist">Contact</a></li>
+                        </ul>   
+                    </div>
+                   
+                    <div class="col ">
+                        <h5 class="foothed ms-4 mt-5"><u style="text-decoration-style: wavy;">Services</u></h5>   
+                        <ul class="mt-3 " >
+                            <li class="nav-link mt-3"><a href="#" class="footlist">Video</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist">Movies</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist">Series</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist">Live</a></li>
+                        </ul> 
+                    </div>
+                    <div class="col ">
+                        <h5 class="foothed ms-4 mt-5"><u style="text-decoration-style: wavy;">Contact</u></h5>  
+                        <ul class="mt-3 " >
+                            <li class="nav-link mt-3"><a href="#" class="footlist"><i class="fa fa-phone me-3 text-white"></i>+022222222</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist"><i class="fa fa-home me-3 text-white"></i>Address Place</a></li>
+                            <li class="nav-link mt-3"><a href="#"class="footlist"><i class="fa fa-envelope me-3 text-white"></i>sample@sample.com</a></li>
+                        </ul>  
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container-fluid">
+              <div class="row footbar">
+                  <div class="col-lg-6 col-md-6">
+                      <p class="copyright-text mt-2 ms-5 text-white">Copyright © 2022 All right reserve</p>
+
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                      <ul class="footer-bottom-list ms-5 mt-2" style="list-style: none; display: inline-flex;">
+                          <li><a href="#" class="ms-3 text-decoration-none  text-white">Help</a></li>
+                          <li><a href="#" class="ms-3 text-decoration-none text-white">About</a></li>
+                          <li><a href="#"  class="ms-3 text-decoration-none text-white">support</a></li>
+                          <li><a href="#"  class="ms-3 text-decoration-none text-white">contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    .footreg{
+    background-image: url('signfooter.webp');
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+.foothed {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .footlist{
+    color: white;
+    text-decoration: none;
+  }
+  .heroreg{
+    height: 100vh;
+  }
+
+  .footbar{
+    background: linear-gradient(90deg, rgb(74, 148, 216) 0%, rgb(49, 130, 206) 35%, rgba(0,212,255,1) 100%); 
+    height: 8vh;
+  }

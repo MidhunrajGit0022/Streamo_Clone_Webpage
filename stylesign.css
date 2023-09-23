@@ -1,0 +1,206 @@
+.login{
+    border: 0;
+}
+.login:hover{
+    background-image: linear-gradient(to right, #1973ac, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    color: white;
+}
+.banner{
+    background-size: cover;
+    background-position: center;
+    background-image: url('signnav.webp');
+    height: 350px; 
+}
+
+.navstyle{
+    list-style: none;
+}
+
+.about{
+    color: white;
+    margin-top: 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+
+.form{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    height: 40%;
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+
+.btn-primary{
+    /* width: 20%; */
+ 
+    /* border-radius: 50px; */
+    background-color: #0259ae;
+}
+
+.form-control{
+    color: black;
+    border-bottom-color: rgba(2,0,36,1)  ;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+
+.h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-control:focus {
+  border-color: #114a99;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(14, 61, 149, 0.6);
+  box-shadow: #114a99;
+}
+
+.loglogin:hover{
+    background-color: black;
+}
+
+.reg{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.signlogreg{
+    font-size: 25px;
+    font-weight: 700;
+    color: #0259ae;
+}
+
+.signegreg{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+.signegreg:hover{
+    color: #0259ae;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* footer start */
+
+
+.explore{
+    color: #ffffff;
+  }
+  
+  .explore:hover{
+    color:#ffffff ;
+    
+  }
+  .fb {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fb:hover {
+    opacity: 0.7;
+  }
+  
+  .fb{
+    background: #0a41b8;
+    color: white;
+  }
+  
+  .lkn {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .lkn:hover {
+    opacity: 0.7;
+  }
+  
+  .lkn{
+    background: #3862be;
+    color: white;
+  }
+  
+  .yt {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .yt:hover {
+    opacity: 0.7;
+  }
+  
+  .yt{
+    background: #fd2201;
+    color: white;
+  }
+  
+  .insta {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .insta:hover {
+    opacity: 0.7;
+  }
+  
+  .insta{
+    background: #c63916;
+    color: white;
+  }
+  
+  .fdate{
+    color: #f7551a;
+  }
+  
+
+  .footbanner{
+    background-size: cover;
+    background-position: center;
+    background-image: url('signfooter.webp');
+    /* height: 450px;  */
+    height: 100%;
+}
+
+.help{
+  color: #ffffff;
+  font-weight: 450;
+}
+
+.help:hover{
+  color: #0259ae;
+}
+
+.breadhome{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.breadhome:hover{
+  color: #0259ae;
+}
+
+  /* footer ended */
